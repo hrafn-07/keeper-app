@@ -21,6 +21,10 @@ function AddNote(props) {
 
     function submitForm(event) {
         props.onAdd(note);
+        setNote({
+            title: "",
+            content: "",
+        });
         event.preventDefault();
     }
 
