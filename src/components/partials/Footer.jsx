@@ -6,9 +6,9 @@ function Footer() {
 
     return (
         <footer>
-            <div className="text-center text-gray-400">
-                <span>Copyright © {year} </span>
-                
+
+            <div className="fixed text-center text-gray-400 bottom-4 left-1/2 transform -translate-x-1/2">
+                <span>Copyright © {year} hrafn-07</span>
             </div>
         </footer>
     );
